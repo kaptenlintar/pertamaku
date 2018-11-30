@@ -1,0 +1,212 @@
+*{
+    margin: 0px;
+}
+html{
+    margin:0;
+    padding:0;
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background: url("lauren-mancke-60627-unsplash.jpg") no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+.box-profil{
+    width: 300px;
+    /* rgba(114, 28,191, 0.5) */
+    background: rgba(114, 28,191, 0.9);
+    padding: 20px;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    text-align: center;
+    display:block;
+
+    -webkit-animation: slide-down 2s;
+    -moz-animation: slide-down 2s ;
+}
+
+.box-profil.hide{
+    display:none;
+}
+.box-skill.show{
+  display: block;
+  
+  -webkit-animation: slide-down 2s ;
+  -moz-animation: slide-down 2s ;
+}
+
+
+.box-skill{
+    width: 300px;
+    background: rgba(114, 28,191, 0.9);
+    padding: 20px;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    text-align: center;
+    display: none;
+
+}
+
+@-webkit-keyframes slide-down {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@-moz-keyframes slide-down {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+
+
+.box-profil img{
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+
+.box-profil h1{
+    font-size: 30px;
+    font-family:"Palatino Linotype";
+    border-bottom: 1px solid darkturquoise;
+    margin-bottom: 10px;
+    padding: 2px;
+    text-transform: uppercase;  
+}
+
+.box-profil h3{
+    font-size: 15px;
+    font-family: "Courier New", Courier, monospace;
+    margin-bottom: 10px;
+    color: white;
+
+
+}
+
+.box-profil .menu{
+    color: white;
+    margin: 0px;
+    float: right;
+    font-size: 25px;
+}
+
+.box-skill .menu{
+    color: white;
+    margin: 0px;
+    float: right;
+    font-size: 25px;
+}
+
+a:hover, a:visited, a:link, a:active{
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+.box-profil p{
+    font-family: monospace;
+    font-size:12px;
+    width: 100%;
+
+}
+
+.box-profil .sosial-media{
+    margin-top: 30px;
+}
+
+.box-profil .sosial-media a{
+    border-radius: 100%;
+    padding: 10px;
+    font-size: 35px;
+    color: white;
+    margin-right: 10px;
+}
+
+.box-skill h1{
+    padding-left: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    border-bottom: 1px solid darkturquoise;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+
+.box-skill p{
+    font-family: monospace;
+    text-align: left;
+    font-size: 15px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+}
+
+span{
+    float: right;
+    letter-spacing:1px;
+}
+
+.box-skill .skill-bar{
+    padding: 1px;
+    background:transparent;
+    border: 1px solid darkturquoise;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.p-html{
+    background:darkturquoise;
+    height: 7px;
+    border-radius: 10px;
+    width: 80%;
+}
+.p-css{
+    background:darkturquoise;
+    height: 7px;
+    border-radius: 10px;
+    width: 70%;
+}
+
+.p-js{
+    background:darkturquoise;
+    height: 7px;
+    border-radius: 10px;
+    width: 85%;
+}
+
+.p-php{
+    background:darkturquoise;
+    height: 7px;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.p-mysql{
+    background:darkturquoise;
+    height: 7px;
+    border-radius: 10px;
+    width: 75%;
+}
+
+.p-ci{
+    background:darkturquoise;
+    height: 7px;
+    border-radius: 10px;
+    width: 85%;
+}
+
+.p-angular{
+    background:darkturquoise;
+    height: 7px;
+    border-radius: 10px;
+    width: 80%;
+}
